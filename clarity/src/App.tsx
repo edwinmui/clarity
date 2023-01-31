@@ -1,14 +1,13 @@
-import React from 'react';
 import logo from './logo.svg';
+import { Route, Routes } from "react-router-dom";
+import Home from "./modules/pages/home";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>
-          Clarity
-        </h1>
+        <Home />
       </header>
     </div>
   );
